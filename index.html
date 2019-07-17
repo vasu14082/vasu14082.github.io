@@ -60,12 +60,18 @@
                      <div class="register_form_wrapper">
                         <div class="register_form">
                            <h4 class="white text-left"><span class="bold ">Enquire Now</span></h4>
-                           <form class="register" action="boostrap.html" method="post">
+                           <div class="register">
                               <input class="register-input white-input d-block" type="text" required="" name="register_names" placeholder="Full Name" />
                               <input class="register-input white-input d-block" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required="" name="register_email" placeholder="Email Adress" />
                               <input class="register-input white-input d-block" type="tel" pattern="^\d{10}$" required="" name="register_phone" placeholder="Phone Number"/>
-                              <input type="submit" value="Submit" class="register-submit register-input  btn-success" />
-                           </form>
+                              <input type="button" value="Submit" onclick="act1()" class="register-submit register-input  btn-success" />
+                              <script>
+                                 function act1()
+                                 {
+                                    window.location.assign("boostrap.html");   
+                                 }
+                              </script>
+                           </div>
                         </div>
                      </div>
                   </div>
