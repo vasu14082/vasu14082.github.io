@@ -1,0 +1,197 @@
+
+$form_back : rgba(0,0,0,0.7);
+$section_bck_clr : rgba(0,0,0,0.5);
+$section_txt_clr : white;
+$first_back : url("../images/logo.jpeg");
+.bg_image
+{
+    background-image:  url("../images/logo.jpeg");
+   
+
+}
+.bg_form
+{
+    background-color:$form_back;
+    border-radius: 5px;
+}
+#home{
+    //background:linear-gradient($section_bck_clr,$section_bck_clr),$first_back no-repeat;
+    padding: 15px 15px 10px 15px;
+    overflow: auto;
+    .home_box
+    {
+        color: $section_txt_clr;
+        .social_icons
+        {
+            li,a,img
+            {
+                display: inline;
+                float: right;
+            }
+            img
+            {
+                margin: 5px;
+            }
+        }
+        .row
+        {
+            ul {
+                padding: 0;
+                
+                li
+            {
+                list-style-type: none;
+            }
+        }
+        }
+    }
+}
+
+.register_form
+{
+    background-color:$form_back; 
+    padding: 20px;
+    .white{
+        color:green;
+        font-size: 18px;
+    }
+    .register-input{
+        margin:10px auto;
+    }
+    input{
+        width:100%;
+    }
+    input[type=submit]
+    {
+        width:50%;
+        border-radius: 5px;
+        
+    }
+}
+
+.section_box
+{
+    margin: 5% auto;
+
+    .separator_first_circle{
+        margin: 1% auto;
+        
+        hr
+        {
+            display: inline-block;
+            width: 30px;
+            border:1px solid black;
+        
+        }
+        
+        img
+        {
+            position: relative;
+            bottom:10px;
+        }
+    }
+
+}
+
+.grey_bg
+{
+    
+    border: 1px solid rgba(0,0,0,0.3);
+    border-right: 0px;
+    border-left: 0px;
+    .sixcol
+    {
+        img
+        {
+            border-radius: 10%;
+            
+            
+        }
+        
+        padding: 3%;
+        font-size: 13px;
+        h3
+        {
+            font-size: 18px;
+        }
+    }
+
+
+    #benefits
+    {
+        padding: 4%;
+        ul
+        {
+            li
+            {
+                padding: 5%;
+            }
+        }
+    }
+}
+
+.section2
+{
+    font-size: 13px;
+    h3
+    {
+        font-size: 18px;
+    }
+        .testimonials_item
+        {
+            display: flex;
+            align-content: flex-start;
+            .img-person
+            {
+                display: inline-block;
+                width: 20%;
+            }
+            img
+            {
+                
+               height: auto;
+               width: 100%;
+                
+            }
+            .para
+            {
+                width: 70%;
+                display: inline-block;
+            
+            }
+        }
+}
+
+
+#hrline
+{
+    margin: 5%;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+
+.section3
+{
+    ul
+    {
+        li
+        {
+            display: inline-block;
+            //padding: 5%;
+            margin: auto 5%;
+
+            img
+            {
+                width: 100px ;
+            }
+        }
+    }
+}
+
+
+#footer
+{
+    margin-top: 3%;
+    height: 50px;
+    line-height: 50px;
+    
+}

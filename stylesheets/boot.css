@@ -1,0 +1,161 @@
+/* line 6, ../sass/boot.scss */
+.bg_image {
+  background-image: url("../images/logo.jpeg");
+}
+
+/* line 12, ../sass/boot.scss */
+.bg_form {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+}
+
+/* line 17, ../sass/boot.scss */
+#home {
+  padding: 15px 15px 10px 15px;
+  overflow: auto;
+}
+/* line 21, ../sass/boot.scss */
+#home .home_box {
+  color: white;
+}
+/* line 26, ../sass/boot.scss */
+#home .home_box .social_icons li, #home .home_box .social_icons a, #home .home_box .social_icons img {
+  display: inline;
+  float: right;
+}
+/* line 31, ../sass/boot.scss */
+#home .home_box .social_icons img {
+  margin: 5px;
+}
+/* line 38, ../sass/boot.scss */
+#home .home_box .row ul {
+  padding: 0;
+}
+/* line 41, ../sass/boot.scss */
+#home .home_box .row ul li {
+  list-style-type: none;
+}
+
+/* line 50, ../sass/boot.scss */
+.register_form {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+}
+/* line 54, ../sass/boot.scss */
+.register_form .white {
+  color: green;
+  font-size: 18px;
+}
+/* line 58, ../sass/boot.scss */
+.register_form .register-input {
+  margin: 10px auto;
+}
+/* line 61, ../sass/boot.scss */
+.register_form input {
+  width: 100%;
+}
+/* line 64, ../sass/boot.scss */
+.register_form input[type=submit] {
+  width: 50%;
+  border-radius: 5px;
+}
+
+/* line 72, ../sass/boot.scss */
+.section_box {
+  margin: 5% auto;
+}
+/* line 76, ../sass/boot.scss */
+.section_box .separator_first_circle {
+  margin: 1% auto;
+}
+/* line 79, ../sass/boot.scss */
+.section_box .separator_first_circle hr {
+  display: inline-block;
+  width: 30px;
+  border: 1px solid black;
+}
+/* line 87, ../sass/boot.scss */
+.section_box .separator_first_circle img {
+  position: relative;
+  bottom: 10px;
+}
+
+/* line 96, ../sass/boot.scss */
+.grey_bg {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-right: 0px;
+  border-left: 0px;
+}
+/* line 102, ../sass/boot.scss */
+.grey_bg .sixcol {
+  padding: 3%;
+  font-size: 13px;
+}
+/* line 104, ../sass/boot.scss */
+.grey_bg .sixcol img {
+  border-radius: 10%;
+}
+/* line 113, ../sass/boot.scss */
+.grey_bg .sixcol h3 {
+  font-size: 18px;
+}
+/* line 120, ../sass/boot.scss */
+.grey_bg #benefits {
+  padding: 4%;
+}
+/* line 125, ../sass/boot.scss */
+.grey_bg #benefits ul li {
+  padding: 5%;
+}
+
+/* line 133, ../sass/boot.scss */
+.section2 {
+  font-size: 13px;
+}
+/* line 136, ../sass/boot.scss */
+.section2 h3 {
+  font-size: 18px;
+}
+/* line 140, ../sass/boot.scss */
+.section2 .testimonials_item {
+  display: flex;
+  align-content: flex-start;
+}
+/* line 144, ../sass/boot.scss */
+.section2 .testimonials_item .img-person {
+  display: inline-block;
+  width: 20%;
+}
+/* line 149, ../sass/boot.scss */
+.section2 .testimonials_item img {
+  height: auto;
+  width: 100%;
+}
+/* line 156, ../sass/boot.scss */
+.section2 .testimonials_item .para {
+  width: 70%;
+  display: inline-block;
+}
+
+/* line 166, ../sass/boot.scss */
+#hrline {
+  margin: 5%;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* line 176, ../sass/boot.scss */
+.section3 ul li {
+  display: inline-block;
+  margin: auto 5%;
+}
+/* line 182, ../sass/boot.scss */
+.section3 ul li img {
+  width: 100px;
+}
+
+/* line 191, ../sass/boot.scss */
+#footer {
+  margin-top: 3%;
+  height: 50px;
+  line-height: 50px;
+}
